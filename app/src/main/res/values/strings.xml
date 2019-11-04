@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TodaySteps</string>
+    <string name="refresh_steps">刷新步数</string>
+</resources>
