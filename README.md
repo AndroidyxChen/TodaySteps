@@ -29,5 +29,5 @@ Android原生计步功能的实现，记录当日步数（仿微信运动），�
         }
     }
 ```
-##### 3.在项目中的StepCounter类中的计步策略参考了之前一位专门做计步app的前辈的项目，在此感谢
+##### 3.项目中的StepCounter类中的计步策略参考了之前一位专门做计步app的前辈的项目，在此感谢
 [TodayStepCounter项目地址](https://github.com/jiahongfei/TodayStepCounter)
