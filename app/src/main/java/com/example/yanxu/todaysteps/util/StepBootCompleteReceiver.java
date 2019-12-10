@@ -20,7 +20,7 @@ public class StepBootCompleteReceiver extends BroadcastReceiver {
                 Intent todayStepIntent = new Intent(context, StepService.class);
                 todayStepIntent.putExtra(StepService.INTENT_BOOT_COMPLETED, true);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    context.startForegroundService(intent);
+                    context.startForegroundService(todayStepIntent);
                 } else {
                     context.startService(todayStepIntent);
                 }
